@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrolled Students</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+    <!-- Load JS AFTER page loads OR use defer -->
+    <script src="myscript.js"></script>
+</head>
+
+<body>
+
+    <h1>Enrolled Students List</h1>
+
+    <table border="1" align="center">
+        <tr style="background-color: aquamarine;">
+            <th width="100" height="30">Id</th>
+            <th width="200" height="30">Name</th>
+            <th width="150" height="30">Email</th>
+            <th width="150" height="30">Course Name</th>
+        </tr>
+
+        <tbody id="EnrolledList" align="center">
+            <!-- Rows will be injected here -->
+        </tbody>
+    </table>
+
+</body>
+<script type="text/javascript">
+        window.onload = function()
+        {
+            Enrolledstudents();
+        }
+    </script>
+</html>
