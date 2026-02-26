@@ -18,7 +18,6 @@ function ShowCourses()
         });
         datatable.innerHTML += row 
 
-
     })
 }
 
