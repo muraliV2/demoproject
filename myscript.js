@@ -14,7 +14,6 @@ function ShowCourses()
             <td>${course.courseName}</td>
             <td>${course.trainer}</td>
             <td>${course.durationInWeeks}</td>
-            
             </tr>`
         });
         datatable.innerHTML += row 
