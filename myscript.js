@@ -1,6 +1,5 @@
 function ShowCourses()
 {
-    
     fetch("http://localhost:8080/courses")
     .then((response) => response.json())
     .then((courses) =>
