@@ -18,7 +18,6 @@ function ShowCourses()
         datatable.innerHTML += row 
     })
 }
-
 function Enrolledstudents()
 {
 fetch("http://localhost:8080/courses/enrolled")
