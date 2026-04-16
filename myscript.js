@@ -37,7 +37,6 @@ students.forEach(student =>
      </tr>`
 })
 stulist.innerHTML= row1
-
 })
     
 
