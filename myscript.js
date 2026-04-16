@@ -36,7 +36,6 @@ students.forEach(student =>
      <td>${student.coursename}</td>
      </tr>`
 })
-
 stulist.innerHTML= row1
 
 })
