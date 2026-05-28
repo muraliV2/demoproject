@@ -28,7 +28,7 @@ const stulist = document.getElementById("EnrolledList");
 var row1 = ""
 students.forEach(student =>
 {
-      row1 += `<tr>
+     row1 += `<tr>
      <td>${student.id}</td>
      <td>${student.name}</td>
      <td>${student.email}</td>
